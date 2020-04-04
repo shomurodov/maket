@@ -1,0 +1,45 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.header_{
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	top: 30px;
+    font-family: "Montserrat";
+    color: rgb(16, 201, 195);
+}
+a{
+	color: black;
+	text-decoration-line: none;
+	margin-left: 10px;
+	transition: color 1s;
+}
+a:hover{
+	color: rgb(16, 201, 195);
+}
+.content1{	
+	height: 314px;
+	background-color: #f6f6f6;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	top: 50px;
+	font-family: "Montserrat";
+}
+img{
+	display: block;
+	margin-bottom: 0;
+}
+.header {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1366px;
+  height: 1596px;
+  z-index: 74;
+}
